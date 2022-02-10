@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    max-width: 300px;
+    margin: auto;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    height: 500px;
+    border-radius: 17px;
+    padding: 20px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.377);
+}
+
+.card img{
+        width: 100%;
+        border-radius: 12px;
+}
+
+.text{
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-top: 15px;
+}
+
+.text h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.text p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr.one{
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    border-radius: 10px;
+}
+
+.eth{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.eth img{
+    text-align: center;
+    max-width: 15px;
+    justify-content: center
+}
+
+
+#color{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
+    justify-content: center;
+}
+
+#color img{
+    max-width: 12px;
+    padding-right: 4px;
+}
+
+.card h6{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.card h6 img{
+    margin-right: 15px;
+    max-width: 30px;
+    align-items: center;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 40px;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2px;
+}
