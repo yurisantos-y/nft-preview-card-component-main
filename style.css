@@ -12,6 +12,15 @@ body{
     height: 100vh;
     align-items: center;
     background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .container{
@@ -22,14 +31,15 @@ body{
 .card{
     background-color: hsl(216, 50%, 16%);
     height: 500px;
-    border-radius: 17px;
+    border-radius: 13px;
     padding: 20px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.377);
 }
 
 .card img{
-        width: 100%;
-        border-radius: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .text{
@@ -41,6 +51,12 @@ body{
 .text h2{
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
+
+}
+
+.text h2:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .text p {
@@ -50,6 +66,31 @@ body{
     color: hsl(215, 51%, 70%);
 }
 
+.text ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text ul li{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+.text ul li img{
+    width: 0.9rem;
+    margin-right: 0.3rem;
+}
+
+.text ul li:first-child{
+    color: hsl(178, 100%, 50%);
+}
+
 hr.one{
     border: none;
     background-color: hsl(215, 32%, 27%);
@@ -57,29 +98,8 @@ hr.one{
     border-radius: 10px;
 }
 
-.eth{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-
-.eth img{
-    text-align: center;
-    max-width: 15px;
-    justify-content: center
-}
-
-
-#color{
-    color: hsl(178, 100%, 50%);
-    font-weight: 600;
-    font-size: 14px;
-    justify-content: center;
-}
-
-#color img{
-    max-width: 12px;
-    padding-right: 4px;
+#eth{
+    width: 8px;
 }
 
 .card h6{
@@ -103,4 +123,8 @@ hr.one{
     text-decoration: none;
     color: white;
     padding-left: 2px;
+}
+
+.card a:hover{
+    color: hsl(178, 100%, 50%);
 }
