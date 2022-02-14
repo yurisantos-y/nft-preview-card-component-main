@@ -34,6 +34,7 @@ ul{
     border-radius: 13px;
     padding: 20px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.377);
+    position: relative;
 }
 
 .card img{
@@ -41,6 +42,30 @@ ul{
     border-radius: 8px;
     cursor: pointer;
 }
+
+.container .card div{
+    position: absolute;
+    top: 0;
+    background-color: hsla(178, 100%, 50%, 0.582);
+    width: 87%;
+    height: 52%;
+    margin-top: 20px;
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+}
+
+.container .card div:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+ .container .card div img{
+    display: flex;
+    width: 40px;
+    margin: auto;
+    padding-top: 110px;
+} 
 
 .text{
     color: hsl(0, 0%, 100%);
@@ -77,13 +102,13 @@ ul{
 .text ul li{
     display: flex;
     align-items: center;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     color: hsl(215, 51%, 70%);
 }
 
 .text ul li img{
-    width: 0.9rem;
+    width: 1rem;
     margin-right: 0.3rem;
 }
 
@@ -99,7 +124,8 @@ hr.one{
 }
 
 #eth{
-    width: 8px;
+    width: 10px;
+    font-weight: 600;
 }
 
 .card h6{
