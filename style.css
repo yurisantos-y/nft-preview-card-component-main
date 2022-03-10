@@ -81,7 +81,7 @@ ul{
 }
 
 .text h2:hover{
-    color: hsl(178, 100%, 50%);
+    color: hsla(178, 100%, 50%, 0.877);
 }
 
 .text p {
